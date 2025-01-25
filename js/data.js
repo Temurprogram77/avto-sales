@@ -222,6 +222,20 @@ const dataBase = [
     name: "Bayerische Motoren Werke",
     brand: "BMW",
     brandImage: "/assets/svg/bmw.svg",
+    generations: [
+      {
+        class: "BMW M",
+        carModels: [
+          {
+            carModelName: "M1",
+            engineType: "1.3 liter turbo engine",
+            power: "136 horsepower",
+            acceleration: "100km/h: 8.5 seconds",
+            carPrice: 34000,
+          },
+        ],
+      },
+    ],
   },
   {
     name: "Ford",
