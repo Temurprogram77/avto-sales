@@ -62,7 +62,7 @@ a {
 .signUp {
   padding: 8px 20px;
   cursor: pointer;
-  border: 2px solid var(--border-color)!important;
+  border: 2px solid var(--border-color) !important;
 }
 .pages a:hover {
   color: var(--white-color);
@@ -98,14 +98,22 @@ a {
   color: var(--text-color);
   text-align: center;
   margin-bottom: 10px;
+  
 }
 .section button {
   cursor: pointer;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 700;
-  padding: 10px 50px;
+  padding: 13px 50px;
   background: transparent;
   color: var(--text-color);
   border: 2px solid var(--border-color);
   border-radius: 5px;
+}
+.carsSection {
+  width: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  transform: translateY(-30px);
+  background: var(--body-background);
 }
