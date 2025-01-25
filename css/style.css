@@ -9,6 +9,7 @@
   --body-background: rgb(18, 19, 24);
   --white-color: #fff;
   --text-color: #c9c9c9;
+  --text2-color: #e1e1e1;
   --border-color: #c9c9c9;
 }
 body {
@@ -34,7 +35,36 @@ a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(/assets/img/background.png);
+  background-image: url(https://youtu.be/RbnqluGx7q0);
+}
+.section {
+  padding: 270px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.section h2 {
+  font-size: 50px;
+  color: var(--text2-color);
+  text-align: center;
+}
+.section p {
+  max-width: 500px;
+  font-size: 18px;
+  color: var(--text-color);
+  text-align: center;
+  margin-bottom: 10px;
+}
+.section button {
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px 50px;
+  background: transparent;
+  color: var(--text-color);
+  border: 2px solid var(--border-color);
+  border-radius: 5px;
 }
 .nav {
   padding: 15px 0;
@@ -65,4 +95,38 @@ a {
 }
 .pages a:hover {
   color: var(--white-color);
+}
+.video-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
+}
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #e64a19;
 }
