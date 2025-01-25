@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans";
+}
+:root {
+  --body-background: rgb(18, 19, 24);
+  --white-color: #fff;
+  --text-color: #c9c9c9;
+  --border-color: #c9c9c9;
+}
+body {
+  background: var(--body-background);
+}
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+.logo img {
+  width: 100px;
+}
+.logo span {
+  font-size: 15px;
+  text-shadow: 0 0 10px #fff;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(/assets/img/background.png);
+}
+.nav {
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pages {
+  display: flex;
+  gap: 2rem;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.login {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--text-color);
+}
+/* Buttons hover and style mode */
+.signIn,
+.signUp {
+  padding: 8px 20px;
+  cursor: pointer;
+  border: 2px solid var(--border-color)!important;
+}
+.pages a:hover {
+  color: var(--white-color);
+}
