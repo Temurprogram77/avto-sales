@@ -40,17 +40,27 @@
         </video>
         <section class="section container">
             <h2>Find Your Dream Car Today!</h2>
-            <p>Discover a wide range of high-quality vehicles at unbeatable prices. Shop smart and drive your passion!</p>
+            <p>Discover a wide range of high-quality vehicles at unbeatable prices. Shop smart and drive your passion!
+            </p>
             <button>Explore Cars</button>
         </section>
     </div>
     <div id="cars" class="carsSection">
         <div class="container cards-car">
-            
+
         </div>
     </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
     <script src="js/data.js"></script>
     <script src="js/script.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 1,
+        });
+    </script>
 </body>
 
 </html>

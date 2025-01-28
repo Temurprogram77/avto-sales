@@ -107,7 +107,7 @@ dataCars.forEach((parametr) => {
   const card = document.createElement("div");
 
   card.innerHTML = `
-    <div class="avto-card">
+    <div class="avto-card card">
         <img src="${parametr.image}" alt="${parametr.name}">
     </div>
     `;
