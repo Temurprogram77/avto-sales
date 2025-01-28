@@ -105,7 +105,7 @@ let cardsCar = document.querySelector(".cards-car");
 
 dataCars.forEach((parametr) => {
   const card = document.createElement("div");
-
+  const create = document.createElement();
   card.innerHTML = `
     <div class="avto-card content">
         <img src="${parametr.image}" alt="${parametr.name}">
