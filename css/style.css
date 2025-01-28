@@ -159,3 +159,22 @@ a {
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(5px);
 } */
+.splide__arrow--next svg:hover,
+.splide__arrow--prev svg:hover {
+  fill: var(--white-color);
+  cursor: pointer;
+}
+.splide__arrow--next svg,
+.splide__arrow--prev svg {
+  fill: var(--text-color);
+}
+.splide__arrow--next,
+.splide__arrow--prev {
+  background: transparent;
+}
+.splide__arrow--next {
+  transform: translateX(20px);
+}
+.splide__arrow--prev {
+  transform: translateX(-40px);
+}

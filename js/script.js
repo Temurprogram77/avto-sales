@@ -101,17 +101,27 @@ let dataCars = [
   },
 ];
 
-let cardsCar = document.querySelector(".cards-car");
+let splideCards = document.querySelector(".splide__list");
 
+// Dinamik ravishda elementlarni qo'shish
 dataCars.forEach((parametr) => {
-  const card = document.createElement("div");
-
+  const card = document.createElement("li"); // Splide ichida `li` kerak
+  card.className = "splide__slide"; // Splide slayd klassini qo‘shamiz
   card.innerHTML = `
-  <div class="card">
-    <div class="avto-card content">
+    <div class="card avto-card content">
         <img src="${parametr.image}" alt="${parametr.name}">
     </div>
-  </div>
-    `;
-  cardsCar.appendChild(card);
+  `;
+  splideCards.appendChild(card);
 });
+
+let signIn = document.querySelector('.signIn');
+let signUp = document.querySelector('.signUp');
+
+signIn.addEventListener('click', ()=>{
+  window.location.href = '/public/sign_in.html';
+})
+
+signUp.addEventListener('click', ()=>{
+  window.location.href = '/public/sign_up.html';
+})
