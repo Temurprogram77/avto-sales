@@ -112,9 +112,35 @@ a {
   border-radius: 5px;
 }
 .carsSection {
+  padding: 70px 0;
   width: 100%;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  transform: translateY(-30px);
+  transform: translateY(-40px);
   background: var(--body-background);
+}
+.avto-card img {
+  width: 100px;
+}
+.avto-card {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 10px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.114);
+}
+.cards-car {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.cards-car div {
+  cursor: pointer;
 }
