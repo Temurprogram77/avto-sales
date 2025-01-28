@@ -73,7 +73,7 @@ a {
 }
 .background-video {
   position: absolute;
-  top: 50%; /* Markazlashtirish uchun */
+  top: 50%  ; /* Markazlashtirish uchun */
   left: 50%; /* Markazlashtirish uchun */
   transform: translate(-50%, -50%); /* To‘liq markazlashtirish */
   width: 100%; /* Butun kenglikni qoplash */

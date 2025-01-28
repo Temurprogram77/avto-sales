@@ -1,0 +1,28 @@
+@media screen and (max-width: 1024px) {
+    .background-video {
+        transform: translate(0);
+        top: 0;
+        left: 0;
+        height: 100%;
+        background-position: top;
+        /* background-size: cover; */
+        object-fit: scale-down;
+    }
+    .section {
+        padding: 100px 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .login {
+        display: none;
+    }
+    .pages {
+        display: none;
+    }
+    .logo img {
+        width: 60px;
+    }
+    .logo span {
+        font-size: 12px;
+    }
+}
