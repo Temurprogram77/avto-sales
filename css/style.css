@@ -113,10 +113,6 @@ a {
 .brandCars {
   padding: 70px 0;
   width: 100%;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  transform: translateY(-40px);
-  background: var(--body-background);
 }
 .brandCars h2 {
   font-size: 30px;
@@ -136,9 +132,10 @@ a {
   gap: 10px;
 }
 .big_section {
-  border-radius: 10px;
-  backdrop-filter: blur(20px);
-  background: rgba(255, 255, 255, 0.114);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  transform: translateY(-40px);
+  background: var(--body-background);
 }
 .cards-car {
   display: flex;
@@ -146,6 +143,9 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 1rem;
+  border-radius: 10px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.114);
 }
 .cards-car div {
   cursor: pointer;
