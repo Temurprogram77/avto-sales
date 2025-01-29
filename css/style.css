@@ -187,6 +187,8 @@ a {
 }
 .card-container {
   display: flex;
+  justify-content: center;
+  /* margin: 0 auto; */
   gap: 20px;
 }
 .car_card {
