@@ -73,7 +73,7 @@ a {
 }
 .background-video {
   position: absolute;
-  top: 50%  ; /* Markazlashtirish uchun */
+  top: 50%; /* Markazlashtirish uchun */
   left: 50%; /* Markazlashtirish uchun */
   transform: translate(-50%, -50%); /* To‘liq markazlashtirish */
   width: 100%; /* Butun kenglikni qoplash */
@@ -134,6 +134,8 @@ a {
   align-items: center;
   justify-content: center;
   gap: 10px;
+}
+.big_section {
   border-radius: 10px;
   backdrop-filter: blur(20px);
   background: rgba(255, 255, 255, 0.114);
@@ -182,4 +184,26 @@ a {
 }
 .splide__arrow--prev {
   transform: translateX(-40px);
+}
+.card-container {
+  display: flex;
+  gap: 20px;
+}
+.car_card {
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+}
+.card-brand img {
+  width: 80px;
+  height: 80px;
+}
+.card-description h3 {
+  margin: 10px 0;
+}
+.card-description p {
+  color: #555;
 }
