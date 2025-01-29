@@ -185,12 +185,12 @@ a {
 .splide__arrow--prev {
   transform: translateX(-40px);
 }
-.card-container {
+/* .card-container {
   display: flex;
   justify-content: center;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   gap: 20px;
-}
+} */
 .car_card {
   background: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
