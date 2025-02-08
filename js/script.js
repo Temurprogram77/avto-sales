@@ -122,6 +122,13 @@ signIn.addEventListener('click', ()=>{
   window.location.href = '/public/sign_in.html';
 })
 
+// 
 signUp.addEventListener('click', ()=>{
   window.location.href = '/public/sign_up.html';
+})
+
+let card = document.querySelector('.card');
+
+card.addEventListener('click', () => {
+  window.location.href = '/public/.html';
 })
